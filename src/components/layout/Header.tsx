@@ -194,7 +194,7 @@ export function Header() {
     <>
       {/* 1. Static Initial Header at the Top of the Page (scrollY <= 100px) */}
       <header className="absolute top-0 left-0 right-0 z-40 flex justify-center px-3 sm:px-4 py-3 sm:py-4 md:py-5 pointer-events-none">
-        <div className="pointer-events-auto w-full max-w-7xl mx-auto flex items-center justify-between rounded-full px-4 sm:px-5 py-2.5 sm:py-3 bg-surface-0/60 backdrop-blur-md border border-white/5">
+        <div className="pointer-events-auto w-full max-w-7xl mx-auto flex items-center justify-between rounded-full px-4 sm:px-6 py-2.5 sm:py-3 bg-surface-0/60 backdrop-blur-md border border-white/5">
           {renderNavContent(homeDropdownOpen, setHomeDropdownOpen)}
         </div>
       </header>
@@ -207,9 +207,9 @@ export function Header() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -80, opacity: 0 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="fixed top-0 left-0 right-0 z-50 flex justify-center px-3 sm:px-4 py-2.5 sm:py-3.5 pointer-events-none"
+            className="fixed top-0 left-0 right-0 z-50 flex justify-center px-3 sm:px-4 py-3 sm:py-4 pointer-events-none"
           >
-            <div className="pointer-events-auto w-full max-w-6xl mx-auto flex items-center justify-between rounded-full px-4 sm:px-6 py-2.5 sm:py-3 bg-[#090B10]/95 backdrop-blur-2xl border border-white/15 shadow-[0_12px_40px_rgba(0,0,0,0.8)]">
+            <div className="pointer-events-auto w-full max-w-7xl mx-auto flex items-center justify-between rounded-full px-4 sm:px-6 py-2.5 sm:py-3 bg-[#090B10]/95 backdrop-blur-2xl border border-white/15 shadow-[0_12px_40px_rgba(0,0,0,0.8)]">
               {renderNavContent(stickyDropdownOpen, setStickyDropdownOpen)}
             </div>
           </motion.header>
