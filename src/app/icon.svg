@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="aetherisGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#D4FF00" />
+    </linearGradient>
+    <linearGradient id="aetherisBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14141A" />
+      <stop offset="100%" stop-color="#09090D" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="256" height="256" rx="60" fill="url(#aetherisBg)" />
+  
+  <path d="M 80 180 L 128 80 L 176 180" fill="none" stroke="url(#aetherisGrad)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="104" y1="145" x2="152" y2="145" stroke="url(#aetherisGrad)" stroke-width="28" stroke-linecap="round" />
+  
+  <path d="M 180 60 Q 180 80 160 80 Q 180 80 180 100 Q 180 80 200 80 Q 180 80 180 60 Z" fill="#D4FF00" />
+</svg>
